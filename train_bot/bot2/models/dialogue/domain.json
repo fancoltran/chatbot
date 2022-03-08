@@ -1,0 +1,25 @@
+{
+  "states": [
+    "intent_email",
+    "intent_give_name",
+    "intent_greet",
+    "entity_cust_sex",
+    "entity_cust_name",
+    "entity_cust_email",
+    "slot_cust_email_0",
+    "slot_cust_name_0",
+    "slot_cust_sex_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_utter_give_name",
+    "prev_utter_greet",
+    "prev_utter_email",
+    "prev_utter_unclear"
+  ]
+}

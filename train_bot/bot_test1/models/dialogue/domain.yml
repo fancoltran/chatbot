@@ -1,0 +1,90 @@
+%YAML 1.1
+---
+actions:
+- utter_product_information
+- utter_email
+- utter_appointment_schedule
+- utter_greet
+- utter_greet_with_name
+- utter_bye
+- utter_unclear
+- utter_func_list
+- utter_thank
+- utter_ask_name
+config:
+  store_entities_as_slots: true
+entities:
+- cust_sex
+- cust_name
+- cust_cake
+- cust_email
+forms: []
+intents:
+- greet:
+    use_entities: true
+- thank:
+    use_entities: true
+- bye:
+    use_entities: true
+- ask_func_list:
+    use_entities: true
+- ask_name:
+    use_entities: true
+- give_name:
+    use_entities: true
+- product_information:
+    use_entities: true
+- email:
+    use_entities: true
+- appointment_schedule:
+    use_entities: true
+slots:
+  cust_cake:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  cust_email:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  cust_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  cust_sex:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_appointment_schedule:
+  - text: cho em xin email để em gửi lịch hẹn đến quý khách ạ
+  utter_ask_name:
+  - text: Em họ Rô, tên Bot! Người ta hay gọi em là Stupid Bot ! Quý khách cần trợ
+      giúp gì ạ?
+  - text: Dạ thưa. Tên Tiếng Việt của em là Trợ lý ảo nhưng em thích được gọi là Javis
+      cho nó chất ^ ^!
+  utter_bye:
+  - text: Kính chào tạm biệt và mong sớm gặp lại quý khách!
+  - text: Kính chào tạm biệt và chúc quý khách một ngày tốt lành!
+  utter_email:
+  - text: em gửi lịch hẹn đến email {cust_email} cho quý khách rồi ạ,quý khách check
+      mail giúp em
+  utter_func_list:
+  - text: 'Em có thể làm được rất nhiều thứ: hát, đọc thơ, đọc chuyện...nhưng giờ
+      em chỉ chat thôi!'
+  utter_greet:
+  - text: Kính chào Quý khách! Quý khách vui lòng cho biết tên để tiện xưng hô được
+      không ah?
+  utter_greet_with_name:
+  - text: Kính chào {cust_sex} {cust_name}. em có thể giúp gì được {cust_sex} {cust_name}
+      ạ?
+  utter_product_information:
+  - text: 'Dạ thưa,quý khách muốn tìm hiểu thông tin gì về {cust_cake} ạ : giá cả,hình
+      dáng,thông số,reviews,số lượt mua,..'
+  - text: 'Dạ thưa,{cust_cake} có những thông tin : giá cả,hình dáng,thông số,reviews,số
+      lượt mua, quý khách muốn xem gì ạ '
+  utter_thank:
+  - text: Cảm ơn quý khách quá khen ah!
+  - text: Dạ không có gì, đó là trách nhiệm của em mà!
+  utter_unclear:
+  - text: 'Thưa quý khách, hiện tại em chưa hiểu được yêu cầu của Quý khách. '

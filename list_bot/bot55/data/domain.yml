@@ -1,0 +1,35 @@
+intents:
+- give name
+- greet
+- email
+entities:
+- cust sex
+- cust_name
+- cust_email
+slots:
+  cust sex:
+    auto_fill: true
+    type: text
+  cust_email:
+    auto_fill: true
+    type: text
+  cust_name:
+    auto_fill: true
+    type: text
+actions:
+- utter_give name
+- utter_greet
+- utter_email
+- utter_unclear
+templates:
+  utter_email:
+  - text: huhuhu {cust sex} {cust_email}
+  - text: huhuhu {cust sex} {cust_email}
+  utter_give name:
+  - text: chào aaaaaa {cust sex} {cust_name}
+  - text: em kính chào aaaaaa {cust sex} {cust_name}
+  utter_greet:
+  - text: chào
+  - text: em kính chào
+  utter_unclear:
+  - text: Thưa quý khách, hiện tại em chưa hiểu được yêu cầu của Quý khách.

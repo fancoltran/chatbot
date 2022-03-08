@@ -1,0 +1,29 @@
+{"botName": "bot00",
+  "intents": [
+        {"topic": "give name",
+         "questions": ["[anh](cust_sex) là [Toàn](cust_name)","[anh](cust_sex) tên [Toàn](cust_name)"],
+         "responses": ["chào {cust_sex} {cust_name}","em kính chào {cust_sex} {cust_name}"],
+          "entities": ["cust_sex","cust_name"]
+
+        },
+        {"topic": "greet",
+         "questions": ["hello","hi","2222"],
+         "responses": ["chào","em kính chào"],
+          "entities": []
+
+        },
+        {"topic": "email",
+         "questions": ["email [anh](cust_sex) là [bc@hv.vn](cust_email)","email [anh](cust_sex) tên [abc@gmail.com](cust_email)"],
+         "responses": ["huhuhu {cust_sex} {cust_email}" ,"huhuhu {cust_sex} {cust_email}"],
+          "entities": ["cust_sex","cust_email"]
+         }
+],
+"stories":{
+  "story1":["greet","give name"],
+  "story2":["greet"],
+  "story3":["give name"],
+  "story4":["greet","email"],
+  "story5":["email"]
+
+}
+}

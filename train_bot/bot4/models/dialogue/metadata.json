@@ -1,0 +1,41 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "utter_product_information": {
+      "slots": []
+    },
+    "utter_email": {
+      "slots": []
+    },
+    "utter_greet_with_name": {
+      "slots": []
+    },
+    "utter_thank": {
+      "slots": []
+    },
+    "utter_func_list": {
+      "slots": []
+    }
+  },
+  "python": "3.7.11",
+  "max_histories": [
+    1,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20210902-030542",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.2",
+  "sklearn": "0.20.4"
+}

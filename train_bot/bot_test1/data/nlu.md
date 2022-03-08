@@ -1,0 +1,182 @@
+## intent:give_name
+- [Anh](cust_sex) là [Long](cust_name)
+- [Anh](cust_sex) là [An](cust_name)
+- [Anh](cust_sex) là [Mai](cust_name)
+- [Anh](cust_sex) là [Que](cust_name)
+- [Anh](cust_sex) là [Ho](cust_name)
+- [Anh](cust_sex) là [Kai](cust_name)
+- [Anh](cust_sex) là [Zo](cust_name)
+- [Anh](cust_sex) là [Suong](cust_name)
+- [Anh](cust_sex) là [Tai](cust_name)
+- [Chị](cust_sex) là [Hằng](cust_name)
+- [Em](cust_sex) là [Trang](cust_name)
+- [Anh](cust_sex) tên là [Hoành Tá](cust_name)
+- [Anh](cust_sex) tên là # [Hà An](cust_name)
+- [Anh](cust_sex) tên là [Mi Long](cust_name)
+- [Anh](cust_sex) tên là [Quê Hoàng](cust_name)
+- [Anh](cust_sex) tên là [Linh Linh](cust_name)
+- [Anh](cust_sex) là [Kai](cust_name)
+- [Anh](cust_sex) là [Zo](cust_name)
+- [Anh](cust_sex) là [Suong](cust_name)
+- [Anh](cust_sex) là [Tai](cust_name)
+- [Chị](cust_sex) là [Hằng](cust_name)
+- [Em](cust_sex) là [Trang](cust_name)
+- [Cô](cust_sex) [Vân](cust_name)
+- [Chú](cust_sex) [Hùng](cust_name)
+- [chị](cust_sex) [Hoa](cust_name)
+
+## intent:greet
+- xin chào
+- chào bạn
+- hello
+- hi
+- hey
+- mình có vài câu hỏi
+- có ai giúp mình không
+- bạn ơi
+- anh ơi
+- chị ơi
+- cháu ơi
+- hello 
+- chào 
+- hi 
+- có ai ở đây không?
+- bot ơi
+
+## intent:bye
+- tạm biệt
+- chào tạm biệt
+- chào tạm biệt em
+- tạm biệt em
+- tạm biệt em nhé
+- bye
+- tạm biệt
+- bye
+
+
+## intent:thank
+- chuẩn
+- hay
+- siêu
+- tuyệt
+- cám ơn
+- thanks
+- thank you
+- ok
+- cảm ơn em
+- cảm ơn em nhiều nhé
+- cảm ơn
+
+## intent:ask_func_list
+- bạn có thể làm được những gì
+- bạn giúp được gì nào
+- chức năng của bạn là gì
+- bạn có thể làm được mấy chức năng
+- bạn giỏi nhất làm gì
+- bạn có tư vấn giúp mình được không
+- việc gì bạn làm được
+- kể xem bạn làm được gì
+- cho mình biết bạn làm được gì nhé
+- bạn hữu dụng như thế nào
+- bạn có ích trong những việc gì
+- lĩnh vực gì bạn giỏi nhất
+- mình tò mò về những việc bạn làm được
+- chẳng biết bạn làm được gì
+- bạn tệ nhất trong việc gì
+- bạn biết được những lĩnh vực gì
+- bạn giỏi hỗ trợ nhất trong lĩnh vực gì
+- kể cho mình biết những việc bạn có thể làm được nhé
+- nói cho mình về những việc bạn giúp được mình
+- bạn giúp được mình gì nào
+- bạn có thể làm gì
+- em giúp được gì
+- em làm được gì
+- mày biết làm gì
+- em biết làm gì
+- bạn biết làm gì
+- biết làm gì
+- làm được gì 
+- có làm được gì 
+- có làm được trò gì 
+- giúp giúp cái gì
+- biết gì mà nói
+- làm được gì
+- giúp được gì
+- mày làm được gì
+- có biết gì 
+
+## intent:ask_name
+- bạn tên gì
+- tên gì
+- chị tên gì
+- anh tên gì
+- tên của bạn là gì
+- tên của chị là gì
+- tên của anh là gì
+- cho mình hỏi tên nhé
+- mình muốn biết tên bạn
+- mình muốn tiện xưng hộ hơn, cho mình biết tên nhé
+- để tiện xưng hộ thì tên bạn là gì
+- cho em xin tên của anh ạ
+- cho em xin tên của chị ạ
+- được biết tên bạn thì tốt nhỉ
+- vui lòng cho mình biết tên nhé
+- xin phép hỏi tên của bạn
+- vậy thì tên bạn là gì
+- tên bạn trong tiếng việt là gì
+- bạn có vui lòng cho mình biết tên được không
+- chúng ta nên biết tên nhau nhỉ?
+- em tên là gì thế
+- tên em là gì
+- tên em 
+- tên bạn 
+- bạn tên là gì 
+- bạn tên gì thế
+- em tên gì
+## intent:appointment_schedule
+- anh cần lịch hẹn
+- tao cần 1 cái lịch hẹn
+- cho anh 1 cái lịch hẹn
+- gửi anh lịch hẹn
+- lịch hẹn như nào
+- cho anh xin lịch hẹn
+- cho cái lịch hẹn
+- cần một cái hẹn
+- lịch hẹn
+- gửi lịch hẹn
+- cho xin lịch hẹn
+- cuộc hẹn như nào
+- cần cái hẹn
+- cuộc hẹn
+- chị cần lịch hẹn
+- cho chị lịch hẹn
+- gửi chị lịch hẹn
+- cuộc hẹn của anh
+##intent:email
+- [quang@gmail.com](cust_email)
+- [toan@gmail.com](cust_email)
+- email đây [hanoi@vhv.com](cust_email)
+- email này [vietnam@gmail.com](cust_email)
+- email [hello@gmail.com](cust_email)
+- [hellword@vhv.com](cust_email)
+- email này [maimai@vhv.com](cust_email)
+- email [hello_0405@gmai.com](cust_email)
+- [canhsat123@hust.edu](cust_email)
+- [dodo12@gmail.com](cust_email)
+- [caca_yu@gmail.com](cust_email)
+- [maimai@gmail.com](cust_email)
+## intent:product_information
+- cho anh biết thông tin về [bánh gà](cust_cake)
+- [bánh mì](cust_cake)
+- thông tin [bánh canh](cust_cake)
+- a xin thông tin [bánh tráng](cust_cake)
+- thông tin [bánh gai](cust_cake)
+- [bánh gai](cust_cake)
+- nói cho anh nghe về [bánh bèo](cust_cake) nào
+- [bánh gạo](cust_cake) là gì em
+- thông tin [bánh hoa](cust_cake)
+- giới thiệu [bánh xe](cust_cake)
+- giới thiệu [bánh dò](cust_cake) cho anh nghe nào
+- thông tin [bánh giò](cust_cake) như nào
+- cho anh biết [bánh canh](cust_cake) ngon không
+- [bánh canh](cust_cake) ổn không

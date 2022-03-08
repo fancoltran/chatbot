@@ -1,0 +1,46 @@
+%YAML 1.1
+---
+actions:
+- utter_give_name
+- utter_greet
+- utter_email
+- utter_unclear
+config:
+  store_entities_as_slots: true
+entities:
+- cust_sex
+- cust_name
+- cust_email
+forms: []
+intents:
+- give_name:
+    use_entities: true
+- greet:
+    use_entities: true
+- email:
+    use_entities: true
+slots:
+  cust_email:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  cust_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  cust_sex:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_email:
+  - text: chào {cust_sex} {cust_email}
+  - text: em kính chào {cust_sex} {cust_email}
+  utter_give_name:
+  - text: chào {cust_sex} {cust_name}
+  - text: em kính chào {cust_sex} {cust_name}
+  utter_greet:
+  - text: chào
+  - text: em kính chào
+  utter_unclear:
+  - text: Thưa quý khách, hiện tại em chưa hiểu được yêu cầu của Quý khách.

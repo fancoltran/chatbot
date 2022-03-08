@@ -1,0 +1,93 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "give name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "anh",
+            "entity": "cust sex"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Toàn",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "anh là Toàn"
+      },
+      {
+        "intent": "give name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "anh",
+            "entity": "cust sex"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "Toàn",
+            "entity": "cust_name"
+          }
+        ],
+        "text": "anh tên Toàn"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "2222"
+      },
+      {
+        "intent": "email",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "anh",
+            "entity": "cust sex"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "bc@hv.vn",
+            "entity": "cust_email"
+          }
+        ],
+        "text": "email anh là bc@hv.vn"
+      },
+      {
+        "intent": "email",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "anh",
+            "entity": "cust sex"
+          },
+          {
+            "start": 14,
+            "end": 27,
+            "value": "abc@gmail.com",
+            "entity": "cust_email"
+          }
+        ],
+        "text": "email anh tên abc@gmail.com"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

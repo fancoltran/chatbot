@@ -1,0 +1,40 @@
+#tạo môi trường ảo chat_bot
+
+virtualenv --system-site-packages  ~/venvs/itu_chatbot
+
+#kích hoạt(vào môi trường ảo) chat_bot
+
+source ~/venvs/itu_chatbot/bin/activate
+
+#update pip
+
+pip install --upgrade pip
+
+#install các thư viện cần thiết
+
+pip install rasa_core sklearn_crfsuite spacy rasa_nlu
+python -m spacy download en
+pip install tornado
+pip install mdutils
+
+
+#run server
+uvicorn main_api:app --host 0.0.0.0 --port 8000
+
+#training bot:
+python train_dialog.py --path_data [path data json]
+
+vd : python train_dialog.py --path_data intents.json
+
+
+#test
+
+curl "http://localhost:8000/chat/?bot_name=chatbot_1&mgs=anh%20l%C3%A0%20Hoang"
+
+với bot_name : "chatbot_1" là tên bot
+ mgs : "anh%20l%C3%A0%20Hoang"( anh là Hoang) nội dung chat
+
+output nhận được :
+	{"message":"Kính chào anh hoang. em có thể giúp gì được anh hoang ạ?"
+	,"extract_info":{"cust_sex":"anh","cust_name":"hoang"}
+}
